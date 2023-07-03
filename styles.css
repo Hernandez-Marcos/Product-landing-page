@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth
+  }
+  
+  body {
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  #header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #555;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  #logo-gancube {
+    display: flex;
+    align-items: center;
+    width: 60%;
+  }
+  
+  #header-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+  }
+  
+  #gancube {
+    font-size: 2rem;
+    color: white;
+    padding-left: 1rem
+  }
+  
+  #nav-bar {
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: Segoe UI;
+    grid-column: 1/-1
+  }
+  
+  #up {
+    height: 120px;
+  }
+  
+  main {
+    background-color: #e1e1e1;
+    display: grid;
+    grid-template-columns: 66% auto;
+    width: 70%;
+    margin: 0 auto;
+    gap: 30px 15px;
+    border: 2px solid black;
+    padding: 15px;
+  }
+  
+  #cube {
+    padding: 50px 0;
+  }
+  
+  #cube-container {
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, rgba(255,255,255,1) 35%, rgba(240,240,240,1) 46%, rgba(233,233,233,1) 60%, rgba(226,226,226,1) 75%, rgba(179,179,179,1) 90%, rgba(129,128,128,1) 100%);
+  }
+  
+  #buy-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+  }
+  
+  .line-through {
+    text-decoration: line-through
+  }
+  
+  select {
+    width: 90%;
+    height: 55.51px;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    display: block;
+    margin: 10px auto;
+    padding-left: 12px
+  }
+  
+  input {
+    width: 90%;
+    height: 55.51px;
+    margin: 10px auto;
+    border-radius: 10px;
+    display: block;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  
+  button {
+    display: block;
+    width: 90%;
+    height: 55.51px;
+    margin: 10px auto;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.4)
+  }
+  
+  button:hover {
+    font-size: 1.6rem;
+  }
+  
+  button:active {
+      background-color: blue;
+      transform: translateY(2px);
+      color: white;
+      box-shadow: none
+  }
+  
+  #buy-now {
+    background-color: #077AFD
+  }
+  
+  #add-to-cart {
+    background-color: #ffaa00
+  }
+  
+  .bold {
+    font-weight: bold
+  }
+  
+  .price {
+    font-size: 2.5rem;
+    margin-left: 5%;
+  }
+  
+  #video {
+    grid-column: 1/2;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  #feliks-text {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 1rem;;;
+  }
+  
+  #video {
+    border: 1px solid black
+  }
+  
+  #average-review {
+    background-color: #077AFD;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    border-radius: 12px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #stars {
+    font-size: 1rem;
+  }
+  
+  #number-of-reviews {
+    font-size: 1.4rem;
+    margin-top: 6px;
+  }
+  
+  #stars-distribution {
+    font-size: 1.3rem;
+    list-style: none;
+    width: 95%;
+    margin: 0 auto;
+  }
+  
+  li {
+    display: flex;
+    margin: 10px 0
+  }
+  
+  .bar {
+    width: 70%;
+    height: 5px;
+    background-color: lightgray;
+    margin: auto;
+    border-radius: 3px;
+  }
+  
+  .percentage {
+    background-color: yellow;
+    height: 100%
+  }
+  
+  #description {
+    text-align: justify;
+    padding: 20px;
+  }
+  
+  #number-adjust {
+    width: 34.7px;
+  }

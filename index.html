@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <meta name="description" content="This is a Certification Project. Project to verify that I am learning.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header id="header">
+      <div id="logo-gancube">
+        <img id="header-img" src="http://cdn.shopify.com/s/files/1/0270/0342/0758/products/0708ff911ab83890c0994c91ca82b185.jpg?v=1610960742">
+        <p id="gancube">GANCUBE</p>
+      </div>
+      <nav id="nav-bar">
+        <!--por lo menos 3 elementos clickeables que te lleven a la sección correspondiente de la página-->
+        <a class="nav-link" href=#up>Buy</a>
+        <a class="nav-link" href=#description>Description</a>
+        <a class="nav-link" href=#footer>lorem ipsum</a>
+      </nav>
+    </header>
+    <div id="up"></div>
+    <main>
+      <h1>GAN356 X</h1>
+      <div id="cube-container">
+        <img id="cube" src="https://www.speedcubereview.com/uploads/1/5/0/1/15014224/published/gan-x.png?1545332969">
+      <!--En el formulario debe haber un input con id="mail" de tipo mail con un placeholder-->
+      <!--<form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input id="email" name="email" type="email" placeholder="#">
+        <input id="submit" name="submit" type="submit">
+      </form>-->
+      </div>
+      <div id="buy-section">
+        <div>
+          <p class="bold price line-through">USD43.88</p>
+          <p class="bold price">USD29.99</p>
+        </div>
+        <div>
+          <label>
+            <p class="bold">Type:</p>
+            <select>
+              <option>Choose an option</option>
+              <option>356 X_v2.0_Stickered (In stock)</option>
+              <option>356 X_v2.0_Stickerless (In stock)</option>
+            </select>
+          </label>
+          <label>
+            <p class="bold">Quantity:</p>
+            <input type="number" min="0">
+          </label>
+        </div>
+        <div>
+          <button type="submit" name="buy-now" value="buy-now" id="buy-now">Buy now</button>
+          <button type="submit" name="add-to-cart" value="add-to-cart" id="add-to-cart">Add to cart</button>
+        </div>
+      </div>
+      <div>
+        <p id="feliks-text">Watch the <span class="bold">world champion</span> and <span class="bold">best cuber of all time</span>, <span class="bold">Feliks Zemdegs</span>, demonstrate the capabilities of our <span class="bold">GAN 356 X</span> cube, proving its limitless potential. Try it for yourself.</p>
+        <iframe id="video" src="https://www.youtube-nocookie.com/embed/XYz-lyfS5Bo?rel=0&controls=0&showinfo=0" frameborder="0" allowfullscreen height="338" width="600"></iframe>
+      </div>
+      <div id="average-review">
+        <p>4.8/5.0</p>
+        <p id="stars">⭐ ⭐ ⭐ ⭐ ⭐ </p>
+        <p id="number-of-reviews">46 reviews (3 without rating)</p>
+        <ul id="stars-distribution">
+          <li>
+            <p>5 stars: </p>
+            <div class="bar">
+              <div class="percentage" style="width: 80.43%"></div>
+            </div>
+            <p>[37]</p>
+          </li>
+          <li>
+            <p>4 stars: </p>
+            <div class="bar">
+              <div class="percentage" style="width: 10.87%"></div>
+            </div>
+            <p id="number-adjust">[5]</p>
+          </li>
+          <li>
+            <p>3 stars: </p>
+            <div class="bar">
+              <div class="percentage" style="width: 0"></></div>
+            </div>
+            <p id="number-adjust">[0]</p>
+          </li>
+          <li>
+            <p>2 stars: </p>
+            <div class="bar">
+              <div class="percentage" style="width: 0"></></div>
+            </div>
+            <p id="number-adjust">[0]</p>
+          </li>
+          <li>
+            <p>1 stars: </p>
+            <div class="bar">
+              <div class="percentage" style="width: 2.17%"></></div>
+            </div>
+            <p id="number-adjust">[1]</p>
+          </li>
+        </ul>
+      </div>
+      <div id="description">
+        <p>The Gan 356 X is a top-of-the-line speed cube designed for competitive and professional use. With its advanced design and precision engineering, this cube offers smooth and fast turning, making it perfect for speedcubing and competitions.
+
+The cube features a unique internal structure that improves stability and reduces lockups, while the magnets inside the cube provide an extra level of control and responsiveness. The cube also has a customizable design, with adjustable tensions and elasticity, allowing you to fine-tune the cube to your specific preferences.
+
+Made with high-quality materials, the Gan 356 X is durable and built to last. It's also lightweight, making it easy to handle and maneuver during solves. Whether you're a seasoned competitor or just starting out, the Gan 356 X is sure to take your speedcubing game to the next level.</p>
+      </div>
+      <div>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input type="email" name="email" id="email" placeholder="write here your mail to suscribe">
+          <input type="submit" name="submit" value="submit" id="submit">
+        </form>
+      </div>
+      <footer id="footer"></footer>
+    </main>
+    <p>I have no relationship with the gancube company. I only used one of their products (because I use that cube) to show that I know how to code and pass the exam (which is what it's all about, a product page), I helped myself from web apps like GANCUBE, MERCADO LIBRE and AMAZON to inspire me but at no time did I copy their codes, everything was written by me. If this page is used in any CV/portfolio, I will request permission from gancube in advance, since its name, its logo and its product were used but I do not seek to benefit from them. In short, it was just an exam, not an actual page.</p>
+  </body>
+  <!--
+  El navbar debe estar siempre en la parte superior de la parte gráfica.
+
+  La página debe tener por lo menos un media query.
+
+  La página debe usar flexbox por lo menos una vez.
+  -->
+</html>
